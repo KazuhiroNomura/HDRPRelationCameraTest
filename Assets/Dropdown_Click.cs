@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -19,7 +19,7 @@ public class Dropdown_Click : MonoBehaviour{
         
     }
     public void OnValueChanged(int value){
-        var ƒIƒtƒZƒbƒg=float.Parse(this.TextMeshPro.options[value].text);
-        this.Plane.transform.position=new Vector3(ƒIƒtƒZƒbƒg,0f,0f);
+        var ã‚ªãƒ•ã‚»ãƒƒãƒˆ=float.Parse(this.TextMeshPro.options[value].text);
+        this.Plane.transform.position=new Vector3(ã‚ªãƒ•ã‚»ãƒƒãƒˆ,0f,0f);
     }
 }
